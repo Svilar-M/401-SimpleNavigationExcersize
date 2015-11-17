@@ -1,0 +1,66 @@
+body{
+	background-color:#ccc;
+}
+
+
+
+.horizontala{
+	text-align: center;
+}
+
+.horizontala ul{
+ list-style-type: none;
+
+
+}
+.horizontala ul li{
+	display: inline-block;
+	background-color: purple;
+	margin: 0 20px;
+
+
+}
+.horizontala ul li a {
+	color:white;
+	text-decoration: none;
+	font-size:30px;
+	padding: 10px;
+}
+.horizontala ul li:hover{
+	background-color:grey;
+
+}
+.horizontala ul li a:hover{
+	color:purple;
+}
+ /*vertikalna navigacija*/
+
+ .vertikala ul{
+ 	list-style-type:none;
+ 	width:130px;
+
+ }
+ .vertikala ul li{
+ 	display:block;
+ 	background-color: grey;
+ 	padding: 10px 20px;
+ 	
+ 	
+ }
+ .vertikala ul li a{
+ 	font-size: 25px;
+ 	text-decoration:none;
+ 	display:block;
+
+ 	
+
+ }
+ .vertikala ul li a:hover{
+ 	
+ 	color: grey;
+ 	
+
+ }
+ .vertikala ul li:hover{
+ 	background: purple;
+ }
